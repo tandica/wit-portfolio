@@ -110,3 +110,19 @@ a {
   background-color: pink;
   transition: 0.3s;
 }
+
+/* need to make height 100% otherwise there is a space below the footer */
+html,
+body {
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+  vertical-align: center;
+  background-color: rgba(226, 218, 222, 0.75);
+}
+
+.footer-text {
+  padding-top: 3px;
+}
